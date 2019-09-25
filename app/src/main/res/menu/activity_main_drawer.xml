@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/portalWisata"
+            android:icon="@drawable/ic_language_black_24dp"
+            android:title="Portal Wisata" />
+        <item
+            android:id="@+id/lokasiWisata"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Lokasi Wisata" />
+        <item
+            android:id="@+id/videoWisata"
+            android:icon="@drawable/ic_video_library_black_24dp"
+            android:title="Video Wisata" />
+        <item
+            android:id="@+id/GalleryWisata"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery Wisata" />
+    </group>
+
+    <item android:title="Lain-lain">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Tentang Pengembang" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="Keluar" />
+        </menu>
+    </item>
+
+</menu>
